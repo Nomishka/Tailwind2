@@ -7,46 +7,79 @@
         <script src="https://cdn.tailwindcss.com"></script> 
     </head>
     <body>
-        <div class="container min-h-screen min-w-full bg-[url('images/background.jpg')] bg-center bg-cover">
-            <nav class="flex justify-between items-center h-24 bg-gradient-to-r from-blue-300 to-indigo-400 text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
-                <div class="w-32">
-                    <a href="index.html">
-                        <img src="images/logo.png" class="w-full h-full" alt="Fashion Logo">
+        <div class="min-h-screen bg-[url('images/background.jpg')] bg-center bg-cover">
+            <div>
+                <nav class="container mx-auto my-auto min-w-full flex justify-between items-center h-24 bg-gradient-to-r from-blue-300 to-indigo-400 text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
+                    <div class="w-32">
+                        <a href="index.html">
+                            <img src="images/logo.png" class="w-full h-full" alt="Fashion Logo">
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-2 w-full justify-around items-center">
+                        <a href="index.html"><div>Home</div></a>
+                        <a href="category.html"><div>Category</div></a>
+                        <a href="about.html"><div>About Us</div></a>
+                        <a href="hotdeals.html"><div>Hot Deals</div></a>
+                    </div>
+                    <div class="flex mr-4">
+                        <div class="w-5 h-5 mr-4">
+                            <a href="#">
+                                <img src="images/search.png" class="w-full h-full object-fill" alt="Search Icon">
+                            </a>
+                        </div>
+                        <div class="w-5 h-5">
+                            <a>
+                                <img src="images/cart.png" class="w-full h-full object-fill" alt="Cart Icon">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="flex justify-center items-center flex-col h-screen">
+                <div class="text-3xl sm:text-5xl lg:text-6xl text-white mt-10">
+                    <div>Welcome to Modern Fashion</div>
+                </div>
+                <a href="#" class="mt-32">
+                    <div class="px-8 py-2 text-center w-60 text-blue-800 rounded-2xl border-4 border-blue-600 text-2xl sm:text-3xl">Explore the Store</div>
+                </a>
+            </div>
+        </div>
+        <footer class="container min-w-full mx-auto my-auto bg-gradient-to-r from-blue-300 to-indigo-400">
+            <div class="flex flex-wrap gap-5 p-5 justify-between">
+                <div class="text-xs sm:text-sm grid gap-1">
+                    <div class="font-extrabold text-white">For You</div>
+                    <a href="#" class="text-black">
+                        <div>Clothes</div>
+                    </a>
+                    <a href="#" class="text-black">
+                        <div>Bags</div></a>
+                    <a href="#" class="text-black">
+                        <div>Jewewelleries</div>
+                    </a>
+                    <a href="#" class="text-black">
+                        <div>Shoes</div>
                     </a>
                 </div>
-                <div class="flex flex-wrap gap-2 w-full justify-around items-center">
-                    <a href="index.html"><div>Home</div></a>
-                    <a href="category.html"><div>Category</div></a>
-                    <a href="about.html"><div>About Us</div></a>
-                    <a href="hotdeals.html"><div>Hot Deals</div></a>
-                </div>
-                <div class="flex mr-4">
-                    <div class="w-5 h-5 mr-4">
-                        <a href="#">
-                            <img src="images/search.png" class="w-full h-full object-fill" alt="Search Icon">
-                        </a>
-                    </div>
-                    <div class="w-5 h-5">
-                        <a>
-                            <img src="images/cart.png" class="w-full h-full object-fill" alt="Cart Icon">
-                        </a>
-                    </div>
-                </div>
-            </nav>
-            <div class="text-center text-5xl text-white mt-10">
-                <div>Welcome to Modern Fashions</div>
-            </div>
-            <a href="#" class="flex justify-center mt-32">
-                <div class="px-8 py-2 text-center w-60 text-blue-800 rounded-2xl border-4 border-blue-600">Explore the Store</div>
-            </a>
-        </div>
-        <footer>
-            <div class="grid grid-cols-2 grid-rows-1 bg-gradient-to-r from-blue-300 to-indigo-400">
-                <div>
-                    <div class="font-bold">For You</div>
-                    <h2>Clothes</h2>
-                    <h2>Bags</h2>
-                    <h2>Jewewelleries</h2>
+                <div class="text-xs sm:text-sm grid gap-1">
+                    <div class="font-extrabold text-white">Contact Us</div>
+                    <a href="#">
+                        <div class="flex flex-wrap gap-2">
+                            <img src="images/whatsapp2.png" alt="whatsapp_icon" width="20" height="20">
+                            <div>+94778489388</div>
+                        </div> 
+                    </a>
+                    <a href="#">
+                        <div class="flex flex-wrap gap-2">
+                            <img src="images/email.png" alt="email_icon" width="20" height="20">
+                            <div>modernfashion@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex flex-wrap gap-2">
+                            <img src="images/facebook.png" alt="facebook_icon" width="20" height="20">
+                            <div>Modern Fashion</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </footer>
