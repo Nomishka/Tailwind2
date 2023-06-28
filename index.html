@@ -8,8 +8,8 @@
     </head>
     <body>
         <div>
-            <div class="max-[992px]:bg-black max-[992px]:text-white px-10">
-                <nav class="container mx-auto flex justify-between items-center h-20 max-[700px]:px-5 max-[1068px]:px-2">
+            <div class="max-[992px]:bg-black max-[992px]:text-white">
+                <nav class="container mx-auto flex justify-between items-center h-20 px-4 sm:px-10">
                     <a href="index.html" class="text-2xl font-extrabold">
                         <div>CLYDE.</div>
                     </a>
@@ -39,17 +39,17 @@
                         </div>
                     </div>
                     <div class="min-[1023px]:hidden text-base">
-                        <div>Menu</div>
+                        <div class="text-[#999999]">MENU</div>
                     </div>
                 </nav>
             </div>
-            <div class="container mx-auto px-10">
-                <div class="flex flex-wrap flex-col gap-5 h-screen justify-center max-[992px]:justify-center font-sans max-[992px]:text-center max-[700px]:px-5 max-[1068px]:px-2">
+            <div>
+                <div class="container mx-auto flex flex-wrap flex-col gap-5 h-screen justify-center max-[992px]:justify-center font-sans max-[992px]:text-center px:4 sm:px-10">
                     <div class="cursor-default uppercase text-[#B1B493] font-bold text-sm">Hello! This is Clyde</div>
-                    <div class="cursor-default flex flex-wrap max-[992px]:justify-center text-center gap-3 text-5xl sm:text-6xl lg:w-4/5 lg:text-6xl font-extrabold max-[992px]:justify-center">
-                        Creative 
+                    <div class="cursor-default flex flex-wrap gap-2 max-[992px]:justify-center max-[992px]:text-center leading-tight text-[40px] lg:text-[60px] font-extrabold">
+                        <div class="text-left max-[992px]:text-center">Creative 
                         <span class="text-[#B1B493]">UI/UX</span>
-                        Designer & Developer
+                        Designer & Developer</div>
                     </div>
                     <div class="flex flex-wrap gap-2 items-center text-[#B1B493] text-sm max-[992px]:justify-center">
                         <a href="#"><div class="border-2 rounded-md border-[#B1B493] bg-[#B1B493] text-white px-3 py-1">Hire me</div></a>
@@ -58,9 +58,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-[#f8f9fa] px-10">
-            <div class="container mx-auto my-auto flex items-center md:h-64 max-[700px]:px-5 max-[1068px]:px-2">
-                <div class="flex max-[768px]:gap-12 md:gap-2 max-[768px]:inline-grid justify-between w-full h-max py-20">
+        <div class="bg-[#f8f9fa]">
+            <div class="container mx-auto flex items-center md:h-64 sm:px-10">
+                <div class="flex max-[768px]:gap-12 md:gap-2 max-[768px]:inline-grid justify-between w-full px-4">
                     <div class="flex gap-5 w-56">
                         <div>
                             <img src="images/suitcase.jpeg" width="60" height="70" alt="suitcase_image">
@@ -102,39 +102,67 @@
                 </div>
             </div>
         </div>
-        <div class="flex px-10">
-            <div class="h-[700px] w-[1200px]">
-                <img class="w-full h-full"  src="images/businessman.jpg" alt="person_icon">
-            </div>
-            <div class="px-10 py-20">
-                <div class="text-[#B1B493] text-[13px] font-bold">MY INTRO</div><br>
-                <div class="font-extrabold text-[34px]">About Me</div><br>
-                <p class="text-[16px] text-[#999999] text-justify">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p><br>
-                <div class="font-bold">
-                    <div class="flex">
-                        <div class="w-[130px]">Name:</div>
-                        <div class="text-[#B1B493] pr-24">Clyde Nowitzki</div>
-                    </div><br>
-                    <div class="flex">
-                        <div class="w-[130px]">Date of birth:</div>
-                        <div class="text-[#B1B493]">January 01, 1990</div>
-                    </div><br>
-                    <div class="flex">
-                        <div class="w-[130px]">Address:</div>
-                        <div class="text-[#B1B493]">San Francisco CA 97987 USA</div>
-                    </div><br>
-                    <div class="flex">
-                        <div class="w-[130px]">Zip code:</div>
-                        <div class="text-[#B1B493]">1000</div>    
-                    </div><br>
-                    <div class="flex">
-                        <div class="w-[130px]">Email:</div>
-                        <div class="text-[#B1B493]">cydenowitzki@gmail.com</div>
-                    </div><br>
-                    <div class="flex">
-                        <div class="w-[130px]">Phone:</div>
-                        <div class="text-[#B1B493]">+1-2234-5678-9-0</div>
-                    </div><br>
+        <div>
+            <div class="container mx-auto flex gap-5 md:gap-5 sm:px-10">
+                <div class="h-[700px] w-[800px] max-[768px]:hidden px-4">
+                    <img class="w-full h-full"  src="images/businessman.png" alt="person_icon">
+                </div>
+                <div class="flex flex-col justify-center w-full max-[768px]:py-16 py-10 px-4">
+                    <div class="text-[#B1B493] text-[13px] font-bold">MY INTRO</div>
+                    <div class="font-extrabold text-[34px]">About Me</div><br>
+                    <p class="text-[16px] text-[#999999] text-justify">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p><br>
+                    <div class="font-bold leading-10 max-[992px]:leading-7">
+                        <div class="flex">
+                            <div class="w-2/5">Name:</div>
+                            <div class="text-[#B1B493] w-3/5">Clyde Nowitzki</div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-2/5">Date of birth:</div>
+                            <div class="text-[#B1B493] w-3/5">January 01, 1990</div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-2/5">Address:</div>
+                            <div class="text-[#B1B493] w-3/5">San Francisco CA 97987 USA</div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-2/5">Zip code:</div>
+                            <div class="text-[#B1B493] w-3/5">1000</div>    
+                        </div>
+                        <div class="flex">
+                            <div class="w-2/5">Email:</div>
+                            <div class="text-[#B1B493] w-3/5">cydenowitzki@gmail.com</div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-2/5">Phone:</div>
+                            <div class="text-[#B1B493] w-3/5">+1-2234-5678-9-0</div>
+                        </div><br><br>
+                        <div class="flex flex-wrap gap-6 md:gap-4">
+                            <div class="flex gap-5 border-l-2 border-[#B1B493]">
+                                <div class="h-8 w-8">
+                                    <img class="w-full h-full ml-3 " src="images/headphone.jpeg" alt="headphone_icon">
+                                </div>
+                                <div class="flex items-center font-bold text-base">Music</div>
+                            </div>
+                            <div class="flex gap-5 border-l-2 border-[#B1B493]">
+                                <div class="h-8 w-8">
+                                    <img class="w-full h-full ml-3" src="images/travellingbag.png" alt="travellingbag_icon">
+                                </div>
+                                <div class="flex items-center font-bold text-base">Travel</div>
+                            </div>
+                            <div class="flex gap-5 border-l-2 border-[#B1B493]">
+                                <div class="h-8 w-8">
+                                    <img class="w-full h-full ml-3" src="images/video.png" alt="video_icon">
+                                </div>
+                                <div class="flex items-center font-bold text-base">Movie</div>
+                            </div>
+                            <div class="flex gap-5 border-l-2 border-[#B1B493]">
+                                <div class="h-8 w-8">
+                                    <img class="w-full h-full ml-3" src="images/football.jpeg" alt="football_icon">
+                                </div>
+                                <div class="flex items-center font-bold text-base">Sports</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
