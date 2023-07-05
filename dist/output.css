@@ -1141,6 +1141,10 @@ video {
   .min-\[992px\]\:bg-\[url\(\'\/images\/background\.jpg\'\)\]{
     background-image: url('/images/background.jpg');
   }
+
+  .min-\[992px\]\:bg-\[url\(\'\.\.\/images\/background\.jpg\'\)\]{
+    background-image: url('../images/background.jpg');
+  }
 }
 
 @media (min-width: 1023px){
