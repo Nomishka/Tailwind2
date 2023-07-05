@@ -1063,6 +1063,10 @@ video {
     background-image: url('/images/background.jpg');
   }
 
+  .max-\[992px\]\:bg-\[url\(\'\.\.\/images\/background\.jpg\'\)\]{
+    background-image: url('../images/background.jpg');
+  }
+
   .max-\[992px\]\:text-center{
     text-align: center;
   }
