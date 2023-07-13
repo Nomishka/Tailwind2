@@ -7,7 +7,7 @@
         <link href="./dist/output.css" rel="stylesheet"> 
     </head>
     <body>
-        <section class="min-[992px]:bg-[url('../images/background.jpg')] sm:bg-cover bg-center bg-no-repeat">
+        <section class="min-[992px]:bg-[url('../images/background.jpg')] sm:bg-cover bg-center bg-no-repeat overflow-hidden">
             <div class="max-[992px]:bg-black max-[992px]:text-white">
                 <nav class="container mx-auto flex justify-between items-center h-20 px-4 sm:px-10">
                     <div class="text-2xl font-extrabold font-poppins">
@@ -60,12 +60,12 @@
                 </div>
             </div>
         </section>
-        <section class="bg-[#f8f9fa]">
+        <section class="bg-[#f8f9fa] overflow-hidden">
             <div class="container mx-auto flex items-center md:h-64 sm:px-10 py-10 px-4">
                 <div class="flex max-[768px]:gap-12 md:gap-2 max-[768px]:inline-grid justify-between w-full font-poppins">
                     <div class="flex gap-5 w-56">
-                        <div>
-                            <img src="images/suitcase.jpeg" width="60" height="70" alt="suitcase_image">
+                        <div class="w-[65px] h-[65px] rounded-full">
+                            <img class="w-full h-full" src="images/suitcase.png" alt="suitcase_image">
                         </div>
                         <div class="flex flex-wrap flex-col gap-2">
                             <div class="font-extrabold text-3xl">750</div>
@@ -74,8 +74,8 @@
                         </div>
                     </div>
                     <div class="flex gap-5 w-56">
-                        <div>
-                            <img src="images/person.png" width="60" height="70" alt="person_image">
+                        <div class="w-[65px] h-[65px] rounded-full">
+                            <img class="w-full h-full" src="images/person.png" alt="person_image">
                         </div>
                         <div class="flex flex-wrap flex-col gap-2">
                             <div class="font-extrabold text-3xl">568</div>
@@ -83,8 +83,8 @@
                         </div>
                     </div>
                     <div class="flex gap-5 w-56">
-                        <div>
-                            <img src="images/teacup.png" width="60" height="70" alt="tea_cup">
+                        <div class="w-[65px] h-[65px] rounded-full">
+                            <img class="w-full h-full" src="images/teacup.png" alt="tea_cup">
                         </div>
                         <div class="flex flex-wrap flex-col gap-2">
                             <div class="text-3xl font-extrabold">478</div>
@@ -92,8 +92,8 @@
                         </div>
                     </div>
                     <div class="flex gap-5 w-56">
-                        <div>
-                            <img src="images/bag.png" width="60" height="70" alt="bag_icon">
+                        <div class="w-[65px] h-[65px] rounded-full">
+                            <img class="w-full h-full" src="images/bag.png" alt="bag_icon">
                         </div>
                         <div class="flex flex-wrap flex-col gap-2">
                             <div class="font-extrabold text-3xl">780</div>
@@ -462,6 +462,100 @@
                 </div>
             </div>
         </section>
-        
+        <section>
+            <div class="bg-[#B1B493] py-32">
+                <div class="container mx-auto my-auto px-4 sm:px-10">
+                    <div class="flex flex-col items-center font-poppins text-white text-center">
+                        <div class="text-xs tracking-[3px] font-bold">TESTIMONIES</div>
+                        <div class="text-[39px] mt-2 font-bold max-[992px]:text-[28px]">What client says about?</div>
+                        <div class="text-base mt-6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-8 font-poppins mt-20 max-[992px]:grid-cols-2 max-[640px]:grid-cols-1 overflow-hidden">
+                        <div class="bg-white rounded-md px-5 py-7">
+                            <div class="flex gap-4">
+                                <div class="text-8xl text-[#B1B493]">"</div>
+                                <div class="text-[#999999] text-base leading-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                            </div>
+                            <div class="flex gap-3 mt-7">
+                                <div class="w-auto h-auto rounded-full">
+                                    <img class="w-full h-full" src="images/carousel1.png" alt="carousel_icon1">
+                                </div>
+                                <div class="flex flex-col justify-between">
+                                    <div class="text-lg">Roger Scott</div>
+                                    <div class="h-full lg:w-1/2 text-[#999999] text-base leading-7">Marketing Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md px-5 py-7">
+                            <div class="flex gap-4">
+                                <div class="text-8xl text-[#B1B493]">"</div>
+                                <div class="text-[#999999] text-base leading-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                            </div>
+                            <div class="flex gap-3 mt-7">
+                                <div class="w-auto h-auto rounded-full">
+                                    <img class="w-full h-full" src="images/carousel2.png" alt="carousel_icon2">
+                                </div>
+                                <div class="flex flex-col justify-between">
+                                    <div class="text-lg">Roger Scott</div>
+                                    <div class="h-full lg:w-1/2 text-[#999999] text-base leading-7">Marketing Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md px-5 py-7">
+                            <div class="flex gap-4">
+                                <div class="text-8xl text-[#B1B493]">"</div>
+                                <div class="text-[#999999] text-base leading-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                            </div>
+                            <div class="flex gap-3 mt-7">
+                                <div class="w-auto h-auto rounded-full">
+                                    <img class="w-full h-full" src="images/carousel3.png" alt="carousel_icon3">
+                                </div>
+                                <div class="flex flex-col justify-between">
+                                    <div class="text-lg">Roger Scott</div>
+                                    <div class="h-full lg:w-1/2 text-[#999999] text-base leading-7">Marketing Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto px-4 sm:px-10 py-28 font-poppins">
+                <div class="text-center flex flex-col items-center">
+                    <div class="text-[#B1B493] text-xs tracking-[3px] font-bold">BLOG</div>
+                    <div class="text-[38px] font-bold mt-2 max-[992px]:text-[28px]">Our Blog</div>
+                    <div class="text-[#999999] mt-7 mb-28 max-[640px]:w-full lg:w-3/5 leading-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</div>
+                </div>
+                <div class="grid grid-cols-3 gap-7 max-[768px]:grid-cols-1">
+                    <div class="max-[768px]:mt-5">
+                        <div class="w-auto h-[300px] shadow-xl">
+                            <img class="w-full h-full object-cover" src="images/ourblog1.jpeg" alt="ourblog_image1">
+                        </div>
+                        <div class="text-xs mt-5 text-[#B1B493] tracking-[3px]">JULY 03, 2020 ADMIN 3</div>
+                        <div class="text-xl mt-5 hover:text-[#B1B493]"><a href="#">Why Lead Generation is Key for Business Growth</a></div>
+                        <div class="text-[#999999] mt-5 leading-7">A small river named Duden flows by their place and supplies it with the necessary regelialia.</div>
+                    </div>
+                    <div class="max-[768px]:mt-5">
+                        <div class="w-auto h-[300px] shadow-xl">
+                            <img class="w-full h-full object-cover" src="images/ourblog2.jpeg" alt="ourblog_image2">
+                        </div>
+                        <div class="text-xs mt-5 text-[#B1B493] tracking-[3px]">JULY 03, 2020 ADMIN 3</div>
+                        <div class="text-xl mt-5 hover:text-[#B1B493]"><a href="#">Why Lead Generation is Key for Business Growth</a></div>
+                        <div class="text-[#999999] mt-5 leading-7">A small river named Duden flows by their place and supplies it with the necessary regelialia.</div>
+                    </div>
+                    <div class="max-[768px]:mt-5">
+                        <div class="w-auto h-[300px] shadow-xl">
+                            <img class="w-full h-full object-cover" src="images/ourblog3.jpeg" alt="ourblog_image3">
+                        </div>
+                        <div class="text-xs mt-5 text-[#B1B493] tracking-[3px]">JULY 03, 2020 ADMIN 3</div>
+                        <div class="text-xl mt-5 hover:text-[#B1B493]"><a href="#">Why Lead Generation is Key for Business Growth</a></div>
+                        <div class="text-[#999999] mt-5 leading-7">A small river named Duden flows by their place and supplies it with the necessary regelialia.</div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
     </body>
 </html>
